@@ -2,7 +2,10 @@ import discord
 from discord.ext import commands
 from response import *
 import os
+from main import configure
 
+
+configure()
 
 async def send_message(message, user_message, is_private):
     try :
